@@ -9,3 +9,29 @@ h1{
 .intro {
   color: green;
 }
+.job {
+  font-weight: bolder;
+  font-style: italic;
+  color: pink;
+}
+.listtitle {
+  font-family: sans-serif;
+  font-style: italic;
+  background-color: yellow;
+}
+#list {
+  color: brown;
+}
+#list2 {
+  color: blue;
+}
+#table {
+  background-color: black;
+  color: white;
+  margin: 30px
+  padding: 50px;
+
+}
+@media query {
+
+}
