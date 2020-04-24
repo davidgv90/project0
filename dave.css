@@ -30,8 +30,23 @@ h1{
   color: white;
   margin: 30px
   padding: 50px;
-
 }
-@media query {
+@media (max-width: 699px) {
+  body {
+    background-color: lightblue;
 
+  }
+  #top{
+    color: blue;
+    font-weight: bold;
+  }
+}
+@media(min-width: 700px) {
+  body {
+    background-color: purple;
+  }
+  h1{
+    color: White;
+    text-align: center;
+  }
 }
